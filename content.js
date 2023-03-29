@@ -70,20 +70,13 @@ const setupObservers = () => {
 }
 
 const unveilOnce = () => {
-  var slide = null;
-  var cover = null;
-
-  while (!slide) {
-    slide = document.querySelector(slideSelector);
-  }
-  while (!cover) {
-    cover = document.querySelector(coverSelector);
-  }
+  const slide = document.querySelector(slideSelector);
+  const cover = document.querySelector(coverSelector);
 
   if (slide.style.display == "none") {
     slide.style.display = null;
   }
   if (cover.style.display != "none") {
-    cover.style.display = "none";
+    slide.style.display = "none";
   }
 }

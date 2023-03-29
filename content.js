@@ -73,10 +73,10 @@ const unveilOnce = () => {
   const slide = document.querySelector(slideSelector);
   const cover = document.querySelector(coverSelector);
 
-  if (slide.style.display == "none") {
+  if (slide && slide.style.display == "none") {
     slide.style.display = null;
   }
-  if (cover.style.display != "none") {
-    slide.style.display = "none";
+  if (cover && cover.style.display != "none") {
+    cover.style.display = "none";
   }
 }

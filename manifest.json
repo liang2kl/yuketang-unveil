@@ -1,0 +1,21 @@
+{
+  "name": "Yuketang Unveil",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.yuketang.cn/*",
+        "https://yuketang.cn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "action": {}
+}

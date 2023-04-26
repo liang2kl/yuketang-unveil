@@ -17,7 +17,7 @@
         "https://yuketang.cn/*"
       ],
       "js": [
-        "content.js"
+        "content.user.js"
       ],
       "all_frames": true
     }

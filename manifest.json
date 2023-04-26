@@ -1,7 +1,12 @@
 {
   "name": "Yuketang Unveil",
-  "version": "0.1",
+  "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "description": "自动显示雨课堂中被“当前页面有动画，请听老师讲解”隐藏的 PPT 页面。",
   "permissions": [
     "scripting"
   ],

@@ -12,4 +12,4 @@
 
 或使用 Tampermonkey：
 
-在 Tampermonkey 开启的情况下，打开 [content.js(raw)](https://raw.githubusercontent.com/liang2kl/yuketang-unveil/main/content.js)。
+在 Tampermonkey 开启的情况下，打开 [content.user.js(raw)](https://raw.githubusercontent.com/liang2kl/yuketang-unveil/main/content.user.js)。

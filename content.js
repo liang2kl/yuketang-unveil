@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Yuketang Unveil
+// @namespace    http://github.com/liang2kl/
+// @version      0.1
+// @description  自动显示被“当前页面有动画，请听老师讲解”隐藏的 PPT 页面。
+// @author       Liang Yesheng
+// @match        https://*.yuketang.cn/*
+// @match        https://yuketang.cn/*
+// @grant        none
+// ==/UserScript==
+
 /**
  * Mutation Observer Helper function
  * //developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe
